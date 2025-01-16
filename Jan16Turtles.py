@@ -21,6 +21,8 @@ def star(x, y):
     donatello.penup()
     donatello.goto(x, y)
     donatello.pendown()
+    donatello.begin_fill()
+    donatello.end_fill()
     for i in range(5): 
         donatello.forward(90) 
         donatello.right(145)
@@ -64,9 +66,16 @@ def circle(cx, cy, radius):
 square(30, 40)
 square(10, 50)
 square (100, 200)
-circle(-200, 200, 80)
+circle(-350, 250, 80)
 triangle(200, 60)
 hexagon(60, 10)
 star(-30, 80)
+star(300, 400)
+star(200, 350)
+star(100, 400)
+star(-30, 80)
+star(-30, 80)
+star(-30, 80)
 
 turtle.done() 
+
